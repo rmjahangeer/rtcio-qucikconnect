@@ -719,7 +719,7 @@ module.exports = function (signalhost, opts) {
             // LocalMediaStreamTrack not implementing the RTCRtpSender inteface.
             // Without `removeStream` and with `removeTrack` not allowing for local stream
             // removal, this needs some thought when dealing with FF renegotiation
-            console.warn('Error removing media track', e);
+            //console.log('Error removing media track', e);
           }
         });
       }
